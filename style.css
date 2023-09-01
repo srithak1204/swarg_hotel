@@ -1,0 +1,51 @@
+*{
+ padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-section{
+  background-image: url(https://www.hssstaffing.com/wp-content/uploads/2017/06/iStock-165688698.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: relative;
+}
+.hero-tag{
+  color: white;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align:center;
+}
+.book-button,.know-button{
+  background-color: aqua;
+  font-size:18px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor:pointer;
+}
+.book-button:hover,.know-button:hover{
+  background-color: #0ed4d8;
+}
+.amenities{
+  text-align: center;
+}
+.amenities ul{
+  display: inline-block;
+  text-align: left;
+  margin-top:10px;
+}
+.about-us{
+  float:left;
+  width:50%;
+  margin:10px 10px;
+  text-align: center;
+}
+.about-section > h1{
+  text-align:center;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
